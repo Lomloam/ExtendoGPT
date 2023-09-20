@@ -1,0 +1,32 @@
+{
+  "name": "helloadelle",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "watch": "webpack --watch --progress --config webpack.config.js"
+  },
+  "dependencies": {
+    "global": "^4.4.0",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "ts-loader": "^9.4.2",
+    "typescript": "^5.0.2"
+  },
+  "devDependencies": {
+    "@types/chrome": "^0.0.225",
+    "@types/react": "^18.0.29",
+    "@types/react-dom": "^18.0.11",
+    "autoprefixer": "^10.4.14",
+    "copy-webpack-plugin": "^11.0.0",
+    "css-loader": "^6.7.3",
+    "html-webpack-plugin": "^5.5.0",
+    "postcss": "^8.4.21",
+    "postcss-loader": "^7.1.0",
+    "react-bootstrap": "^2.7.2",
+    "style-loader": "^3.3.2",
+    "tailwindcss": "^3.2.7",
+    "webpack": "^5.76.3",
+    "webpack-cli": "^5.0.1"
+  }
+}
